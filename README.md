@@ -45,8 +45,10 @@ Team Member 2:
 ### Project Solution:
 _Include a comprehensive summary of all important information about your project solution here._
 All necessary code files and any additional information required to judge your project solution should be included in the repository.
+
 The Quantum algorthm for the Hamiltonian simulation of a 1-dimensional classical system of $N$ coupled oscillators have been thoroughly reviewed.
-In the end, our stratgey for the deployment of the simulation in Classoq has been to prepare a simple encoding, represent the Hamiltonian as a matrix and evolve it using the Suzuki trotterization.
+In the end, our stratgey for the deployment of the simulation in Classiq has been to prepare a simple encoding, represent the Hamiltonian as 
+a matrix and evolve it using the Suzuki trotterization.
 
 ### Project Presentation Deck:
 _Upload/ Link a 3min. presentation deck here._
