@@ -32,23 +32,21 @@ Ensure your repository does not contain any personal or team tokens/access infor
 
 ### Team Information:
 Team Member 1:
- - Full Name: 
- - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx):
+ - Mohammadreza Khellat: 
+ - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx): WQ24-fvfEVepBZ3Z5pnp
 
 
 Team Member 2:
- - Full Name: 
- - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx):
+ - Omid Abbasi: 
+ - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx): WQ24-swBRhj7onRJZfRj
 
-
-Team Member 3:
- - Full Name: 
- - Womanium Program Enrollment ID (see Welcome Email, format- WQ24-xxxxxxxxxxxxxxx):
 
 
 ### Project Solution:
 _Include a comprehensive summary of all important information about your project solution here._
-All necessary code files and any additional information required to judge your project solution should be included in the repository. 
+All necessary code files and any additional information required to judge your project solution should be included in the repository.
+The Quantum algorthm for the Hamiltonian simulation of a 1-dimensional classical system of $N$ coupled oscillators have been thoroughly reviewed.
+In the end, our stratgey for the deployment of the simulation in Classoq has been to prepare a simple encoding, represent the Hamiltonian as a matrix and evolve it using the Suzuki trotterization.
 
 ### Project Presentation Deck:
 _Upload/ Link a 3min. presentation deck here._
