@@ -30,6 +30,8 @@ Ensure your repository is public and submitted by **August 9, 2024, 23:59pm US E
 
 Ensure your repository does not contain any personal or team tokens/access information to access backends. Ensure your repository does not contain any third-party intellectual property (logos, company names, copied literature, or code). Any resources used must be open source or appropriately referenced.
 
+We encountered an issue with Suzuki Trotter `qbv` parameterization reported at [commit ac68f1db23ddece86e25c6d2ed0f86d0369940ea](https://github.com/womanium-quantum/Development-of-Novel-Quantum-Algorithms/commit/ac68f1db23ddece86e25c6d2ed0f86d0369940ea).
+
 ### Team Information:
 Team Member 1:
  - Mohammadreza Khellat: 
