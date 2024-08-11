@@ -30,7 +30,6 @@ Ensure your repository is public and submitted by **August 9, 2024, 23:59pm US E
 
 Ensure your repository does not contain any personal or team tokens/access information to access backends. Ensure your repository does not contain any third-party intellectual property (logos, company names, copied literature, or code). Any resources used must be open source or appropriately referenced.
 
-We encountered an issue with Suzuki Trotter `qbv` parameterization reported at [commit ac68f1db23ddece86e25c6d2ed0f86d0369940ea](https://github.com/womanium-quantum/Development-of-Novel-Quantum-Algorithms/commit/ac68f1db23ddece86e25c6d2ed0f86d0369940ea).
 
 ### Team Information:
 Team Member 1:
@@ -48,9 +47,21 @@ Team Member 2:
 _Include a comprehensive summary of all important information about your project solution here._
 All necessary code files and any additional information required to judge your project solution should be included in the repository.
 
-The Quantum algorthm for the Hamiltonian simulation of a 1-dimensional classical system of $N$ coupled oscillators have been thoroughly reviewed.
-In the end, our stratgey for the deployment of the simulation in Classiq has been to prepare a simple encoding, represent the Hamiltonian as 
-a matrix and evolve it using the Suzuki trotterization.
+The Quantum algorithm for the Hamiltonian simulation of a 1-dimensional
+classical system of $N$ coupled oscillators have been thoroughly
+reviewed.
+
+In the end, our strategy for the deployment of the simulation in
+Classiq has been to prepare a simple encoding, represent the
+Hamiltonian as a matrix, and evolve it using the Suzuki Trotter.
+
+We encountered an issue with Suzuki Trotter `qbv` parameter
+reported at [commit
+ac68f1db23ddece86e25c6d2ed0f86d0369940ea](https://github.com/womanium-quantum/Development-of-Novel-Quantum-Algorithms/commit/ac68f1db23ddece86e25c6d2ed0f86d0369940ea). A
+closer study of the issue hinted us towards modifying the function
+`matrix_to_pauli_terms(matrix)` to make sure that no redundant identity
+Pauli terms are added to the operator and the size of our Hamiltonian
+operator is not unnecessarily increased.
 
 ### Project Presentation Deck:
 _Upload/ Link a 3min. presentation deck here._
