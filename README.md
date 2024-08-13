@@ -55,13 +55,11 @@ In the end, our strategy for the deployment of the simulation in
 Classiq has been to prepare a simple encoding, represent the
 Hamiltonian as a matrix, and evolve it using the Suzuki Trotter.
 
-We encountered an issue with Suzuki Trotter `qbv` parameter
-reported at [commit
-ac68f1db23ddece86e25c6d2ed0f86d0369940ea](https://github.com/womanium-quantum/Development-of-Novel-Quantum-Algorithms/commit/ac68f1db23ddece86e25c6d2ed0f86d0369940ea). A
-closer study of the issue hinted us towards modifying the function
-`matrix_to_pauli_terms(matrix)` to make sure that no redundant identity
-Pauli terms are added to the operator and the size of our Hamiltonian
-operator is not unnecessarily increased.
+Another important and now fixed issue is the decomposition of the
+Hamiltonian matrix in Pauli terms. In the end, it was decided to use
+$I, X, Z$ as the bases for the decomposition as it seems that
+`PauliTerm` induces an `unknown error` during program synthesis when
+complex or imaginary coefficients are provides as its argument.
 
 ### Project Presentation Deck:
 _Upload/ Link a 3min. presentation deck here._
