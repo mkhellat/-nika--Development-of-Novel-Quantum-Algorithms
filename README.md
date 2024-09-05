@@ -55,11 +55,7 @@ In the end, our strategy for the deployment of the simulation in
 Classiq has been to prepare a simple encoding, represent the
 Hamiltonian as a matrix, and evolve it using the Suzuki Trotter.
 
-Another important and now fixed issue is the decomposition of the
-Hamiltonian matrix in Pauli terms. In the end, it was decided to use
-$I, X, Z$ as the bases for the decomposition as it seems that
-`PauliTerm` induces an `unknown error` during program synthesis when
-complex or imaginary coefficients are provides as its argument.
+
 
 ### Project Presentation Deck:
 _Upload/ Link a 3min. presentation deck here._
